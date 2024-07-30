@@ -16,7 +16,6 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-right">
-        <a href="loginn"></a>
         <input type="search"/>
         <span>Become a seller</span>
         <button>Sign In</button>
