@@ -83,9 +83,9 @@ body {
 /* HEADER STYLING SECTION */
 
 .header {
-  background: #c3f3e9b7;
+  background: #c7ebe3b7;
   margin-top: 2rem;
-  min-height: 70vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
