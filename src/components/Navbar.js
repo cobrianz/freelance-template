@@ -1,41 +1,24 @@
 import React from "react";
-
 const Navbar = () => {
   return (
-    <div>
-      <div className="navbar container">
-        <div className="navbar-logo">
-          <h1 className="logo">
-            BI<span>VO</span>
-          </h1>
-          <span>
-            <i class="ph ph-list"></i>
-          </span>
+    <div className="navbar container">
+      <div className="navbar-right">
+        <div className="logo">
+          <h1>BRI-<span>UP</span></h1>
+
         </div>
-        <div className="navbar-right">
-          <div className="search-container">
-            <div className="search-left">
-              <button>
-                <i class="ph ph-magnifying-glass"></i>
-              </button>
-              <input type="text" placeholder="Search..." />
-            </div>
-            <div className="search-right">
-              <select name="" id="">
-                <option value="1">
-                  <i class="ph ph-users"></i> Freelancer
-                </option>
-                <option value="2">
-                  <i class="ph ph-rows"></i>Services
-                </option>
-                <option value="3">
-                  <i class="ph ph-book"></i> Projects
-                </option>
-              </select>
-            </div>
-          </div>
-          <a className="signin">Sign in</a>
-        </div>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Browse Jobs</a></li>
+          <li><a href="">Users</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contacts</a></li>
+        </ul>
+      </div>
+      <div className="navbar-right">
+        <span>Become a seller</span>
+        <button>Sign In</button>
+        <button>Sign Up</button>
       </div>
     </div>
   );
